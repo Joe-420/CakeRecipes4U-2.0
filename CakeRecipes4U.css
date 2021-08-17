@@ -1,0 +1,75 @@
+body {
+    background-image: url("Images/white gradient.jpg");
+    background-size: cover;
+  }
+  
+  h1 {
+    margin: 0px;
+    color: #0003ff;
+    font-family: Indie Flower;
+    font-size: 10vw;
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    margin-left: 10px; 
+    margin-right: 10px; 
+    color: #436abc; 
+    font-family: Indie Flower; 
+    font-size: 3vw;
+  }
+  
+  .carousel-inner {
+    font-family: Goblin One;
+    margin-left: 500px;
+    margin-right: 200px;
+    width: 300px;
+  }
+
+  body {
+    margin: 0;
+}
+
+.image-wrapper {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background: url("Images/rosa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+	animation-name: expand-fade-in;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-fill-mode: both;
+}
+
+
+.title {
+    font-size: 4em;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: Sen;
+    text-transform: uppercase;
+    text-align: center;
+	animation-name: fade-in;
+	animation-duration: 2s;
+	animation-timing-function: ease-out;
+	animation-fill-mode: both;
+	animation-delay: 1s;
+}
+
+@keyframes expand-fade-in {
+	from {opacity: 0%; width: 0%;}
+	to {opacity: 100%; width: 100%;}
+}
+
+@keyframes fade-in {
+	from {opacity: 0%;}
+	to {opacity: 100%;}
+}
