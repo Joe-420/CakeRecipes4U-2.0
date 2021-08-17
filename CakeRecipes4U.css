@@ -1,5 +1,5 @@
 body {
-    background-image: src("white gradient.jpg");
+    background-image: url("white gradient.jpg");
     background-size: auto;
   }
   
