@@ -1,6 +1,6 @@
 body {
-    background-image: url("white gradient.jpg");
-    background-size: cover;
+    background-image: url("Images/white gradient.jpg");
+    background-size: auto;
   }
   
   h1 {
@@ -24,9 +24,7 @@ body {
   
   .carousel-inner {
     font-family: Goblin One;
-    margin-left: 500px;
-    margin-right: 200px;
-    width: 300px;
+    width: 30%;
   }
 
   body {
