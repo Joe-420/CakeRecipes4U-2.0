@@ -1,5 +1,5 @@
 body {
-    background-image: url("white gradient.jpg");
+    background-image: url("Images/white gradient.jpg");
     background-size: auto;
   }
   
@@ -24,50 +24,10 @@ body {
   
   .carousel-inner {
     font-family: Goblin One;
-    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30%;
+    height: 300px;
+    object-fit: cover;
   }
-
-  body {
-    margin: 0;
-}
-
-.image-wrapper {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    background: url("Images/rosa.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-	animation-name: expand-fade-in;
-	animation-duration: 1.5s;
-	animation-timing-function: ease-out;
-	animation-fill-mode: both;
-}
-
-
-.title {
-    font-size: 4em;
-    text-transform: uppercase;
-    margin: 0;
-    font-family: Sen;
-    text-transform: uppercase;
-    text-align: center;
-	animation-name: fade-in;
-	animation-duration: 2s;
-	animation-timing-function: ease-out;
-	animation-fill-mode: both;
-	animation-delay: 1s;
-}
-
-@keyframes expand-fade-in {
-	from {opacity: 0%; width: 0%;}
-	to {opacity: 100%; width: 100%;}
-}
-
-@keyframes fade-in {
-	from {opacity: 0%;}
-	to {opacity: 100%;}
-}
