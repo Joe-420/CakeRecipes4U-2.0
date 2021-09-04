@@ -13,8 +13,8 @@ html {
 
   .Middle {
     border-style: solid;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
@@ -34,8 +34,7 @@ html {
   }
 
   h2 {
-    line-height: 2;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     margin-bottom: 1.5rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -55,8 +54,8 @@ html {
 
   .split1 {
     margin-bottom: 4rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
   
   .split2 {
@@ -70,4 +69,3 @@ html {
     margin-bottom: 4rem;
     font-family: 'Azeret Mono', monospace;
   }
-
