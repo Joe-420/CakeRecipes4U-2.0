@@ -1,7 +1,7 @@
 body {
     color: #fff;
-    margin-left: 1.2rem;
-    margin-right: 1.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .choice-container {
@@ -71,6 +71,6 @@ body {
 
 @media screen and (max-width: 768px) {
     .choice-container {
-        min-width: 40rem;
+        min-width: 30rem;
     }
 }
