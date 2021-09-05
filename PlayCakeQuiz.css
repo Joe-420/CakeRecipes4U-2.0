@@ -1,5 +1,12 @@
 body {
     color: #fff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.container {
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
 }
 
 .choice-container {
