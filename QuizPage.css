@@ -1,0 +1,47 @@
+body {
+    font-family: Playfair Display black;
+    font-size: 1.3125rem;
+    font-weight: 1000;
+    line-height: 1.6;
+    background-color: #f5eee4;
+
+  }
+
+  .Middle {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    font-family: 'Azeret Mono', monospace;
+    font-size: 2rem;
+  }
+  .collapse {
+  font-family: 'Azeret Mono', monospace;
+  font-weight: 100;
+  margin-left: 4.5rem;
+  }
+
+  h1 {
+    font-family: Playfair Display black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    background-color: #f5eee4;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 2.5rem;
+  }
