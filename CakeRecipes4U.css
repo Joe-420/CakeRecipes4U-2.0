@@ -1,18 +1,11 @@
-html {
-  font-size: 16px;
-  }
-
   body {
     font-family: Playfair Display black;
-    font-size: 1.3125rem;
-    font-weight: 1000;
     line-height: 1.6;
     background-color: #f5eee4;
 
   }
 
   .Middle {
-    border-style: solid;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     margin-top: 1rem;
@@ -22,15 +15,13 @@ html {
   .navbar-brand {
     font-family: 'Azeret Mono', monospace;
     font-size: 2rem;
+    font-weight: bold;
   }
-
-  h1 {
-    font-family: 'Rampart One', cursive;
-    color: #057A70;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    font-size: 3.7rem;
-    background-color: #f5eee4
+  .collapse {
+  font-family: 'Azeret Mono', monospace;
+  font-weight: 100;
+  font-size: 1.3125rem;
+  margin-left: 4.5rem;
   }
 
   h2 {
@@ -42,22 +33,23 @@ html {
     font-weight: bold;
   }
 
+ .split1 {
+    margin-bottom: 4rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+  }
+
   .carousel-inner {
     font-family: Goblin One;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20rem;
-    height: 20rem;
-    margin-bottom: 3.5rem;
+    width: 15rem;
+    height: 15rem;
+    object-position: center;
   }
 
-  .split1 {
-    margin-bottom: 4rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-  }
-  
   .split2 {
     margin-left: 2rem;
     margin-right: 2rem;
@@ -66,6 +58,6 @@ html {
   .Searchbar {
     margin-right: 5rem;
     margin-left: 5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     font-family: 'Azeret Mono', monospace;
   }
