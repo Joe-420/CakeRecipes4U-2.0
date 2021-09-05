@@ -76,7 +76,7 @@ let questions = [
         answer: 4,
     },
     {
-        question: 'According to surveys, which cake flavour is the most enjoyed ?',
+        question: 'Which cake flavour is generally the most enjoyed ?',
         choice1: "Strawberry",
         choice2: "Vanilla",
         choice3: "Carrot",
